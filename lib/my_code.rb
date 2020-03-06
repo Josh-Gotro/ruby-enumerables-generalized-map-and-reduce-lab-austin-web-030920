@@ -6,12 +6,16 @@ def map(source_array)
  new = []
  while i < source_array.length 
    new << yield(source_array[i])
+<<<<<<< HEAD
    i += 1
+=======
+>>>>>>> de58b6d540d6e165eee7d6c4342cf3fe072385c8
  end
  new
 end
 
 
+<<<<<<< HEAD
 def reduce(array, sv=nil)
     if sv
       sum = sv
@@ -26,6 +30,9 @@ def reduce(array, sv=nil)
       end
 sum 
 end
+=======
+
+>>>>>>> de58b6d540d6e165eee7d6c4342cf3fe072385c8
 
 
 
